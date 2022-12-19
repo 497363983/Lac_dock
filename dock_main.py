@@ -12,4 +12,5 @@ if __name__ == "__main__":
             receptors.append(receptor(file.split('/')[2].split('.')[0], file))
             # jobs[j].append(file.split('/')[2].split('.')[0])
         dock_jobs = jobs(j, receptors, ligands, config)
-        print(dock_jobs)
+        # print(dock_jobs)
+        dock_jobs.run()

@@ -1,0 +1,1719 @@
+{
+    "dock_config": {
+        "box_size": [
+            30,
+            30,
+            30
+        ],
+        "center": [
+            -44.98,
+            -34.754,
+            -20.67
+        ],
+        "cpu": 1,
+        "n_poses": 20,
+        "output": "result/TvLac",
+        "save_pose": 5,
+        "spacing": 0.375
+    },
+    "done": [
+        {
+            "ligand": {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            },
+            "path": "result/TvLac/Guaiacol_TvLac_A_C_439_A_docked.pdbqt",
+            "receptor": {
+                "file": "mutate/TvLac/TvLac_A_C_439_A.pdbqt",
+                "name": "TvLac_A_C_439_A"
+            }
+        },
+        {
+            "ligand": {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            },
+            "path": "result/TvLac/Guaiacol_TvLac_A_C_439_C_docked.pdbqt",
+            "receptor": {
+                "file": "mutate/TvLac/TvLac_A_C_439_C.pdbqt",
+                "name": "TvLac_A_C_439_C"
+            }
+        },
+        {
+            "ligand": {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            },
+            "path": "result/TvLac/Guaiacol_TvLac_A_C_439_D_docked.pdbqt",
+            "receptor": {
+                "file": "mutate/TvLac/TvLac_A_C_439_D.pdbqt",
+                "name": "TvLac_A_C_439_D"
+            }
+        },
+        {
+            "ligand": {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            },
+            "path": "result/TvLac/Guaiacol_TvLac_A_C_439_E_docked.pdbqt",
+            "receptor": {
+                "file": "mutate/TvLac/TvLac_A_C_439_E.pdbqt",
+                "name": "TvLac_A_C_439_E"
+            }
+        },
+        {
+            "ligand": {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            },
+            "path": "result/TvLac/Guaiacol_TvLac_A_C_439_F_docked.pdbqt",
+            "receptor": {
+                "file": "mutate/TvLac/TvLac_A_C_439_F.pdbqt",
+                "name": "TvLac_A_C_439_F"
+            }
+        }
+    ],
+    "errors": [],
+    "ligands": [
+        {
+            "file": "structure/pdbqt/Guaiacol.pdbqt",
+            "name": "Guaiacol"
+        }
+    ],
+    "name": "TvLac",
+    "queue": [
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_C_439_G.pdbqt",
+                "name": "TvLac_A_C_439_G"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_C_439_H.pdbqt",
+                "name": "TvLac_A_C_439_H"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_C_439_I.pdbqt",
+                "name": "TvLac_A_C_439_I"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_C_439_K.pdbqt",
+                "name": "TvLac_A_C_439_K"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_C_439_L.pdbqt",
+                "name": "TvLac_A_C_439_L"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_C_439_M.pdbqt",
+                "name": "TvLac_A_C_439_M"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_C_439_N.pdbqt",
+                "name": "TvLac_A_C_439_N"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_C_439_P.pdbqt",
+                "name": "TvLac_A_C_439_P"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_C_439_Q.pdbqt",
+                "name": "TvLac_A_C_439_Q"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_C_439_R.pdbqt",
+                "name": "TvLac_A_C_439_R"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_C_439_S.pdbqt",
+                "name": "TvLac_A_C_439_S"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_C_439_T.pdbqt",
+                "name": "TvLac_A_C_439_T"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_C_439_V.pdbqt",
+                "name": "TvLac_A_C_439_V"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_C_439_W.pdbqt",
+                "name": "TvLac_A_C_439_W"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_C_439_Y.pdbqt",
+                "name": "TvLac_A_C_439_Y"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_A.pdbqt",
+                "name": "TvLac_A_F_449_A"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_C.pdbqt",
+                "name": "TvLac_A_F_449_C"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_D.pdbqt",
+                "name": "TvLac_A_F_449_D"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_E.pdbqt",
+                "name": "TvLac_A_F_449_E"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_F.pdbqt",
+                "name": "TvLac_A_F_449_F"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_G.pdbqt",
+                "name": "TvLac_A_F_449_G"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_H.pdbqt",
+                "name": "TvLac_A_F_449_H"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_I.pdbqt",
+                "name": "TvLac_A_F_449_I"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_K.pdbqt",
+                "name": "TvLac_A_F_449_K"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_L.pdbqt",
+                "name": "TvLac_A_F_449_L"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_M.pdbqt",
+                "name": "TvLac_A_F_449_M"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_N.pdbqt",
+                "name": "TvLac_A_F_449_N"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_P.pdbqt",
+                "name": "TvLac_A_F_449_P"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_Q.pdbqt",
+                "name": "TvLac_A_F_449_Q"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_R.pdbqt",
+                "name": "TvLac_A_F_449_R"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_S.pdbqt",
+                "name": "TvLac_A_F_449_S"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_T.pdbqt",
+                "name": "TvLac_A_F_449_T"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_V.pdbqt",
+                "name": "TvLac_A_F_449_V"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_W.pdbqt",
+                "name": "TvLac_A_F_449_W"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_F_449_Y.pdbqt",
+                "name": "TvLac_A_F_449_Y"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_A.pdbqt",
+                "name": "TvLac_A_H_381_A"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_C.pdbqt",
+                "name": "TvLac_A_H_381_C"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_D.pdbqt",
+                "name": "TvLac_A_H_381_D"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_E.pdbqt",
+                "name": "TvLac_A_H_381_E"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_F.pdbqt",
+                "name": "TvLac_A_H_381_F"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_G.pdbqt",
+                "name": "TvLac_A_H_381_G"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_H.pdbqt",
+                "name": "TvLac_A_H_381_H"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_I.pdbqt",
+                "name": "TvLac_A_H_381_I"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_K.pdbqt",
+                "name": "TvLac_A_H_381_K"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_L.pdbqt",
+                "name": "TvLac_A_H_381_L"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_M.pdbqt",
+                "name": "TvLac_A_H_381_M"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_N.pdbqt",
+                "name": "TvLac_A_H_381_N"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_P.pdbqt",
+                "name": "TvLac_A_H_381_P"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_Q.pdbqt",
+                "name": "TvLac_A_H_381_Q"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_R.pdbqt",
+                "name": "TvLac_A_H_381_R"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_S.pdbqt",
+                "name": "TvLac_A_H_381_S"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_T.pdbqt",
+                "name": "TvLac_A_H_381_T"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_V.pdbqt",
+                "name": "TvLac_A_H_381_V"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_W.pdbqt",
+                "name": "TvLac_A_H_381_W"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_381_Y.pdbqt",
+                "name": "TvLac_A_H_381_Y"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_A.pdbqt",
+                "name": "TvLac_A_H_444_A"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_C.pdbqt",
+                "name": "TvLac_A_H_444_C"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_D.pdbqt",
+                "name": "TvLac_A_H_444_D"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_E.pdbqt",
+                "name": "TvLac_A_H_444_E"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_F.pdbqt",
+                "name": "TvLac_A_H_444_F"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_G.pdbqt",
+                "name": "TvLac_A_H_444_G"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_H.pdbqt",
+                "name": "TvLac_A_H_444_H"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_I.pdbqt",
+                "name": "TvLac_A_H_444_I"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_K.pdbqt",
+                "name": "TvLac_A_H_444_K"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_L.pdbqt",
+                "name": "TvLac_A_H_444_L"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_M.pdbqt",
+                "name": "TvLac_A_H_444_M"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_N.pdbqt",
+                "name": "TvLac_A_H_444_N"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_P.pdbqt",
+                "name": "TvLac_A_H_444_P"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_Q.pdbqt",
+                "name": "TvLac_A_H_444_Q"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_R.pdbqt",
+                "name": "TvLac_A_H_444_R"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_S.pdbqt",
+                "name": "TvLac_A_H_444_S"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_T.pdbqt",
+                "name": "TvLac_A_H_444_T"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_V.pdbqt",
+                "name": "TvLac_A_H_444_V"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_W.pdbqt",
+                "name": "TvLac_A_H_444_W"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_H_444_Y.pdbqt",
+                "name": "TvLac_A_H_444_Y"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_A.pdbqt",
+                "name": "TvLac_A_I_441_A"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_C.pdbqt",
+                "name": "TvLac_A_I_441_C"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_D.pdbqt",
+                "name": "TvLac_A_I_441_D"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_E.pdbqt",
+                "name": "TvLac_A_I_441_E"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_F.pdbqt",
+                "name": "TvLac_A_I_441_F"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_G.pdbqt",
+                "name": "TvLac_A_I_441_G"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_H.pdbqt",
+                "name": "TvLac_A_I_441_H"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_I.pdbqt",
+                "name": "TvLac_A_I_441_I"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_K.pdbqt",
+                "name": "TvLac_A_I_441_K"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_L.pdbqt",
+                "name": "TvLac_A_I_441_L"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_M.pdbqt",
+                "name": "TvLac_A_I_441_M"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_N.pdbqt",
+                "name": "TvLac_A_I_441_N"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_P.pdbqt",
+                "name": "TvLac_A_I_441_P"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_Q.pdbqt",
+                "name": "TvLac_A_I_441_Q"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_R.pdbqt",
+                "name": "TvLac_A_I_441_R"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_S.pdbqt",
+                "name": "TvLac_A_I_441_S"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_T.pdbqt",
+                "name": "TvLac_A_I_441_T"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_V.pdbqt",
+                "name": "TvLac_A_I_441_V"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_W.pdbqt",
+                "name": "TvLac_A_I_441_W"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_I_441_Y.pdbqt",
+                "name": "TvLac_A_I_441_Y"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_A.pdbqt",
+                "name": "TvLac_A_P_382_A"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_C.pdbqt",
+                "name": "TvLac_A_P_382_C"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_D.pdbqt",
+                "name": "TvLac_A_P_382_D"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_E.pdbqt",
+                "name": "TvLac_A_P_382_E"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_F.pdbqt",
+                "name": "TvLac_A_P_382_F"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_G.pdbqt",
+                "name": "TvLac_A_P_382_G"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_H.pdbqt",
+                "name": "TvLac_A_P_382_H"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_I.pdbqt",
+                "name": "TvLac_A_P_382_I"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_K.pdbqt",
+                "name": "TvLac_A_P_382_K"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_L.pdbqt",
+                "name": "TvLac_A_P_382_L"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_M.pdbqt",
+                "name": "TvLac_A_P_382_M"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_N.pdbqt",
+                "name": "TvLac_A_P_382_N"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_P.pdbqt",
+                "name": "TvLac_A_P_382_P"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_Q.pdbqt",
+                "name": "TvLac_A_P_382_Q"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_R.pdbqt",
+                "name": "TvLac_A_P_382_R"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_S.pdbqt",
+                "name": "TvLac_A_P_382_S"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_T.pdbqt",
+                "name": "TvLac_A_P_382_T"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_V.pdbqt",
+                "name": "TvLac_A_P_382_V"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_W.pdbqt",
+                "name": "TvLac_A_P_382_W"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ],
+        [
+            {
+                "file": "mutate/TvLac/TvLac_A_P_382_Y.pdbqt",
+                "name": "TvLac_A_P_382_Y"
+            },
+            {
+                "file": "structure/pdbqt/Guaiacol.pdbqt",
+                "name": "Guaiacol"
+            }
+        ]
+    ],
+    "receptor": [
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_A.pdbqt",
+            "name": "TvLac_A_C_439_A"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_C.pdbqt",
+            "name": "TvLac_A_C_439_C"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_D.pdbqt",
+            "name": "TvLac_A_C_439_D"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_E.pdbqt",
+            "name": "TvLac_A_C_439_E"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_F.pdbqt",
+            "name": "TvLac_A_C_439_F"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_G.pdbqt",
+            "name": "TvLac_A_C_439_G"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_H.pdbqt",
+            "name": "TvLac_A_C_439_H"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_I.pdbqt",
+            "name": "TvLac_A_C_439_I"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_K.pdbqt",
+            "name": "TvLac_A_C_439_K"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_L.pdbqt",
+            "name": "TvLac_A_C_439_L"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_M.pdbqt",
+            "name": "TvLac_A_C_439_M"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_N.pdbqt",
+            "name": "TvLac_A_C_439_N"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_P.pdbqt",
+            "name": "TvLac_A_C_439_P"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_Q.pdbqt",
+            "name": "TvLac_A_C_439_Q"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_R.pdbqt",
+            "name": "TvLac_A_C_439_R"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_S.pdbqt",
+            "name": "TvLac_A_C_439_S"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_T.pdbqt",
+            "name": "TvLac_A_C_439_T"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_V.pdbqt",
+            "name": "TvLac_A_C_439_V"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_W.pdbqt",
+            "name": "TvLac_A_C_439_W"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_C_439_Y.pdbqt",
+            "name": "TvLac_A_C_439_Y"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_A.pdbqt",
+            "name": "TvLac_A_F_449_A"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_C.pdbqt",
+            "name": "TvLac_A_F_449_C"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_D.pdbqt",
+            "name": "TvLac_A_F_449_D"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_E.pdbqt",
+            "name": "TvLac_A_F_449_E"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_F.pdbqt",
+            "name": "TvLac_A_F_449_F"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_G.pdbqt",
+            "name": "TvLac_A_F_449_G"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_H.pdbqt",
+            "name": "TvLac_A_F_449_H"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_I.pdbqt",
+            "name": "TvLac_A_F_449_I"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_K.pdbqt",
+            "name": "TvLac_A_F_449_K"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_L.pdbqt",
+            "name": "TvLac_A_F_449_L"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_M.pdbqt",
+            "name": "TvLac_A_F_449_M"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_N.pdbqt",
+            "name": "TvLac_A_F_449_N"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_P.pdbqt",
+            "name": "TvLac_A_F_449_P"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_Q.pdbqt",
+            "name": "TvLac_A_F_449_Q"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_R.pdbqt",
+            "name": "TvLac_A_F_449_R"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_S.pdbqt",
+            "name": "TvLac_A_F_449_S"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_T.pdbqt",
+            "name": "TvLac_A_F_449_T"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_V.pdbqt",
+            "name": "TvLac_A_F_449_V"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_W.pdbqt",
+            "name": "TvLac_A_F_449_W"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_F_449_Y.pdbqt",
+            "name": "TvLac_A_F_449_Y"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_A.pdbqt",
+            "name": "TvLac_A_H_381_A"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_C.pdbqt",
+            "name": "TvLac_A_H_381_C"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_D.pdbqt",
+            "name": "TvLac_A_H_381_D"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_E.pdbqt",
+            "name": "TvLac_A_H_381_E"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_F.pdbqt",
+            "name": "TvLac_A_H_381_F"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_G.pdbqt",
+            "name": "TvLac_A_H_381_G"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_H.pdbqt",
+            "name": "TvLac_A_H_381_H"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_I.pdbqt",
+            "name": "TvLac_A_H_381_I"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_K.pdbqt",
+            "name": "TvLac_A_H_381_K"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_L.pdbqt",
+            "name": "TvLac_A_H_381_L"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_M.pdbqt",
+            "name": "TvLac_A_H_381_M"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_N.pdbqt",
+            "name": "TvLac_A_H_381_N"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_P.pdbqt",
+            "name": "TvLac_A_H_381_P"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_Q.pdbqt",
+            "name": "TvLac_A_H_381_Q"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_R.pdbqt",
+            "name": "TvLac_A_H_381_R"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_S.pdbqt",
+            "name": "TvLac_A_H_381_S"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_T.pdbqt",
+            "name": "TvLac_A_H_381_T"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_V.pdbqt",
+            "name": "TvLac_A_H_381_V"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_W.pdbqt",
+            "name": "TvLac_A_H_381_W"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_381_Y.pdbqt",
+            "name": "TvLac_A_H_381_Y"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_A.pdbqt",
+            "name": "TvLac_A_H_444_A"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_C.pdbqt",
+            "name": "TvLac_A_H_444_C"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_D.pdbqt",
+            "name": "TvLac_A_H_444_D"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_E.pdbqt",
+            "name": "TvLac_A_H_444_E"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_F.pdbqt",
+            "name": "TvLac_A_H_444_F"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_G.pdbqt",
+            "name": "TvLac_A_H_444_G"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_H.pdbqt",
+            "name": "TvLac_A_H_444_H"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_I.pdbqt",
+            "name": "TvLac_A_H_444_I"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_K.pdbqt",
+            "name": "TvLac_A_H_444_K"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_L.pdbqt",
+            "name": "TvLac_A_H_444_L"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_M.pdbqt",
+            "name": "TvLac_A_H_444_M"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_N.pdbqt",
+            "name": "TvLac_A_H_444_N"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_P.pdbqt",
+            "name": "TvLac_A_H_444_P"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_Q.pdbqt",
+            "name": "TvLac_A_H_444_Q"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_R.pdbqt",
+            "name": "TvLac_A_H_444_R"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_S.pdbqt",
+            "name": "TvLac_A_H_444_S"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_T.pdbqt",
+            "name": "TvLac_A_H_444_T"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_V.pdbqt",
+            "name": "TvLac_A_H_444_V"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_W.pdbqt",
+            "name": "TvLac_A_H_444_W"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_H_444_Y.pdbqt",
+            "name": "TvLac_A_H_444_Y"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_A.pdbqt",
+            "name": "TvLac_A_I_441_A"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_C.pdbqt",
+            "name": "TvLac_A_I_441_C"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_D.pdbqt",
+            "name": "TvLac_A_I_441_D"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_E.pdbqt",
+            "name": "TvLac_A_I_441_E"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_F.pdbqt",
+            "name": "TvLac_A_I_441_F"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_G.pdbqt",
+            "name": "TvLac_A_I_441_G"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_H.pdbqt",
+            "name": "TvLac_A_I_441_H"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_I.pdbqt",
+            "name": "TvLac_A_I_441_I"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_K.pdbqt",
+            "name": "TvLac_A_I_441_K"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_L.pdbqt",
+            "name": "TvLac_A_I_441_L"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_M.pdbqt",
+            "name": "TvLac_A_I_441_M"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_N.pdbqt",
+            "name": "TvLac_A_I_441_N"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_P.pdbqt",
+            "name": "TvLac_A_I_441_P"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_Q.pdbqt",
+            "name": "TvLac_A_I_441_Q"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_R.pdbqt",
+            "name": "TvLac_A_I_441_R"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_S.pdbqt",
+            "name": "TvLac_A_I_441_S"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_T.pdbqt",
+            "name": "TvLac_A_I_441_T"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_V.pdbqt",
+            "name": "TvLac_A_I_441_V"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_W.pdbqt",
+            "name": "TvLac_A_I_441_W"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_I_441_Y.pdbqt",
+            "name": "TvLac_A_I_441_Y"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_A.pdbqt",
+            "name": "TvLac_A_P_382_A"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_C.pdbqt",
+            "name": "TvLac_A_P_382_C"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_D.pdbqt",
+            "name": "TvLac_A_P_382_D"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_E.pdbqt",
+            "name": "TvLac_A_P_382_E"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_F.pdbqt",
+            "name": "TvLac_A_P_382_F"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_G.pdbqt",
+            "name": "TvLac_A_P_382_G"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_H.pdbqt",
+            "name": "TvLac_A_P_382_H"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_I.pdbqt",
+            "name": "TvLac_A_P_382_I"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_K.pdbqt",
+            "name": "TvLac_A_P_382_K"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_L.pdbqt",
+            "name": "TvLac_A_P_382_L"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_M.pdbqt",
+            "name": "TvLac_A_P_382_M"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_N.pdbqt",
+            "name": "TvLac_A_P_382_N"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_P.pdbqt",
+            "name": "TvLac_A_P_382_P"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_Q.pdbqt",
+            "name": "TvLac_A_P_382_Q"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_R.pdbqt",
+            "name": "TvLac_A_P_382_R"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_S.pdbqt",
+            "name": "TvLac_A_P_382_S"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_T.pdbqt",
+            "name": "TvLac_A_P_382_T"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_V.pdbqt",
+            "name": "TvLac_A_P_382_V"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_W.pdbqt",
+            "name": "TvLac_A_P_382_W"
+        },
+        {
+            "file": "mutate/TvLac/TvLac_A_P_382_Y.pdbqt",
+            "name": "TvLac_A_P_382_Y"
+        }
+    ],
+    "working": []
+}
