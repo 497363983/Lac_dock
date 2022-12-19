@@ -1,0 +1,7 @@
+{
+    "center": [-44.980, -34.754, -20.670],
+    "box_size": [30, 30, 30],
+    "spacing": 0.375,
+    "cpu": 1,
+    "output": "result/TvLac"
+}
