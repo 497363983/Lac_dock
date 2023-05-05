@@ -1,3 +1,14 @@
+# bio.py
+"""
+USAGE:
+A module offer some basic classes for sequence analyses
+
+DESCRIPTION:
+This module offer some basic classes, such as DNA, RNA, protein, etc.
+
+NOTE:
+Do not run this module directly!
+"""
 import os
 import regex as re
 """
@@ -125,3 +136,8 @@ class dna(sequence):
                      ' ', '') + "'"))
         orf = pattern.findall(self.rna.seq, overlapped=True)
         return [start + mid + end for (start, mid, _, end) in orf]
+
+
+if __name__ == "__main__":
+    print('This is a module, not a script!')
+    

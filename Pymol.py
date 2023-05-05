@@ -1,3 +1,4 @@
+# Pymol.py
 from pymol import cmd
 import utils
 import os
@@ -35,8 +36,9 @@ def mutate(molecule: str,
            resi: str,
            target: str,
            mutframe: int = 1,
-           save_path="./mutate",
-           add_h: bool = True) -> None:
+           save_path: str = "./mutate",
+           add_h: bool = True,
+           callback = None) -> None:
     """
     USAGE
     mutate molecule, chain, resi, target, mutframe=1
@@ -66,8 +68,10 @@ def mutate(molecule: str,
     cmd.get_wizard().apply()
     cmd.set_wizard()
     cmd.h_add(molecule) if add_h else None
-    cmd.save(os.path.join(save_path, molecule, f'{name}.pdb'), molecule)
+    cmd.save(os.path.join(save_path, f'{name}.pdb'), molecule)
     cmd.delete('all')
+    if callback:
+        callback(os.path.join(save_path, f'{name}.pdb'))
 
 
 def mutate_residues(molecule: str,
@@ -75,7 +79,8 @@ def mutate_residues(molecule: str,
                     chain: str,
                     resi: str,
                     mutframe: int = 1,
-                    save_path="./mutate") -> None:
+                    save_path = "./mutate",
+                    callback = None) -> None:
     """
     USAGE
     mutate_residues molecule, chain, resis, target, mutframe=1
@@ -94,7 +99,11 @@ def mutate_residues(molecule: str,
     None
     """
     for resn in RESIDUES:
-        mutate(molecule, file, chain, resi, resn, mutframe, save_path)
+        cmd.load(file, molecule)
+        resname = get_resname(molecule, chain, resi)
+        cmd.delete('all')
+        if resname.upper() != resn.upper():
+            mutate(molecule, file, chain, resi, resn, mutframe, save_path, callback=callback)
 
 
 def mutate_all(molecule: str,
@@ -102,7 +111,8 @@ def mutate_all(molecule: str,
                chain: str,
                resis: list,
                mutframe: int = 1,
-               save_path="./mutate") -> None:
+               save_path="./mutate",
+               callback = None) -> None:
     """
     USAGE
     mutate_all molecule, chain, mutframe=1
@@ -119,10 +129,10 @@ def mutate_all(molecule: str,
     None
     """
     for resi in resis:
-        mutate_residues(molecule, file, chain, resi, mutframe, save_path)
+        mutate_residues(molecule, file, chain, resi, mutframe, save_path, callback=callback)
 
 
-def get_resis_by_selection(selection: str = "") -> list:
+def get_resis_by_selection(selection: str = "", exclude: list = []) -> list:
     """
     USAGE
     get_resis_by_selection selection
@@ -136,4 +146,11 @@ def get_resis_by_selection(selection: str = "") -> list:
     RETURNS
     list: residue numbers
     """
-    return list(set([item.resi for item in cmd.get_model(selection).atom]))
+    selection_res = list(set([item.resi for item in cmd.get_model(selection).atom]))
+    return [item for item in selection_res if int(item) not in exclude]
+
+
+def check_HIS(his_selection: str = '') -> list:
+
+    resname = cmd.get_model(his_selection).atom[0].resn
+    return resname == "HIS" or resname == "HSD"
